@@ -23,7 +23,7 @@
 }
 .login__loged-btn {
   border: none;
-  background-color: var(--color-red);
+  background-color: var(--hospital-green);
   color: white;
   padding: 10px 15px;
   border-radius: 5px;

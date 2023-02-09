@@ -25,7 +25,7 @@ const Login = () => {
           <i className="login__loged-icon bx bx-user-circle"></i>
           <h3 className="login__loged-name">{`${user.firstName} ${user.lastName}`}</h3>
           <button className="login__loged-btn" onClick={handleClickLogout}>
-            Logout
+            cerrar sesión
           </button>
         </section>
       ) : (
