@@ -3,7 +3,7 @@ import { useForm } from "react-hook-form";
 import { useDispatch, useSelector } from "react-redux";
 import { NavLink } from "react-router-dom";
 import { loginUserThunk } from "../store/slices/userInfo.slice";
-import "./styles/Restorepassword.css";
+import "./styles/Login.css";
 
 const Restorepassword = () => {
   const { token, user } = useSelector((state) => state.userInfo);
