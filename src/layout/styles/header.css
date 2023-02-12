@@ -5,6 +5,7 @@
   width: 100%;
   background-color: var(--gray);
   position: fixed;
+  z-index: 4;
 }
 
 .header nav {

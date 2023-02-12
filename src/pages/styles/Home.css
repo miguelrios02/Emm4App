@@ -1,3 +1,13 @@
 .home {
+  height: 100vh;
   padding-top: 80px;
+  background-image: url(/multi/iot.png);
+  background-attachment: fixed;
+  background-size: cover;
+  color: #ffffff;
+}
+.home-img_init {
+  top: 80px;
+  position: absolute;
+  z-index: 1;
 }

@@ -4,7 +4,9 @@ import "./styles/Home.css";
 const Home = () => {
   return (
     <div className="home">
-      <img src="/multi/iot.png" alto="introduction" className="img-init"></img>
+      <div className="home-title">
+        <h3>Emm4</h3>
+      </div>
     </div>
   );
 };
