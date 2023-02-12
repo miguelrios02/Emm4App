@@ -1,0 +1,40 @@
+.Devices {
+  margin: 0 auto;
+  padding-top: 85px;
+  max-width: 1200px;
+}
+
+.home__form {
+  width: max-content;
+  margin: 20px auto;
+  border: 1px solid var(--gray);
+}
+
+.home__form-input {
+  color: var(--gray);
+  padding: 10px 40px 10px 10px;
+  border: none;
+  font-size: 14px;
+}
+
+.home__form-input::placeholder {
+  color: var(--gray);
+}
+
+.home__form-btn {
+  font-size: 14px;
+  padding: 10px;
+  border: none;
+  color: var(--gray);
+  background-color: var(--hospital-green);
+  cursor: pointer;
+}
+
+.home__containerProducts {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  justify-items: center;
+  grid-template-rows: auto;
+  gap: 40px;
+  margin: 0 20px 20px 20px;
+}

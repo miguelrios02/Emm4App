@@ -21,7 +21,7 @@ const Restorepassword = () => {
         <p>
           {" "}
           Introduzca su direccion de correo electronico y le enviaremos un
-          correo electronico para reestablecer us contraseña
+          correo electronico para reestablecer tu contraseña
         </p>
         <div className="login__field">
           <label className="login__label">Email</label>

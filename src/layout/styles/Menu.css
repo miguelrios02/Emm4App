@@ -1,0 +1,36 @@
+.menu-main {
+  display: flex;
+  width: 97%;
+  height: 200px;
+  border: 1px solid var(--very-light-pink);
+  border-radius: 6px;
+  padding: 20px 20px 0 20px;
+  position: absolute;
+  top: 80px;
+  align-items: left;
+  background-color: var(--trasparent);
+}
+.menu-main ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-main ul li a {
+  text-decoration: none;
+  color: var(--very-light-pink);
+  border: 1px solid var(--white);
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.menu-main ul li a:hover {
+  border: 1px solid var(--hospital-green);
+  color: var(--hospital-green);
+}
+
+@media (min-width: 640px) {
+  .menu-main {
+    display: none;
+  }
+}

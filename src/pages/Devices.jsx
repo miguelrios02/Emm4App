@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import DeviceCard from "../components/devices/DeviceCard";
 import { getAllDivices } from "../store/slices/devices.slice";
+import "./styles/Devices.css";
 
 const Devices = () => {
   const [namedevice, setNameDevice] = useState("");
@@ -30,7 +31,7 @@ const Devices = () => {
   }, [namedevice]);
 
   return (
-    <main>
+    <main className="Devices">
       <form className="home__form" onSubmit={handlesubmit}>
         <div className="home__form-div">
           <input
@@ -44,7 +45,7 @@ const Devices = () => {
           </button>
         </div>
       </form>
-      <section>
+      <section className="home__containerProducts">
         {filterdevice.map((device) => (
           <DeviceCard key={device.id} device={device} />
         ))}
